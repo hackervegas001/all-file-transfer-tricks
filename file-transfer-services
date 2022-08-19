@@ -1,0 +1,29 @@
+# all file transfer services 
+
+python -m http.server
+python -m http.serve
+python -m SimpleHTTPServer
+python -m SimpleHTTPServer 80
+php -S 0.0.0.0:8000
+ruby -run -e httpd -P 1234
+
+========================================
+kali linux file transfer services 
+========================================
+
+service apache2 start
+service mysql start
+service postgresql start
+
+========================================
+file transfer kali to windows and other systems 
+===============================================
+
+1) download pyton2.msi in widows 64 bit 
+2) run apache server and transfer file in windows server python -m http.server 80
+3) download the files  ex:- wget http://ip:80/python.msi
+4)install the python.msi
+5)now copy any files in c:drive in transfer other systems
+6) now hold shift key + mouse right click to show powershell enter to open powershell 
+7) now start the windows python server  ex:- python -m SimpleHTTPServer 80  to transfer files easyly ;)
+
